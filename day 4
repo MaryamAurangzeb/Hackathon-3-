@@ -1,44 +1,45 @@
 ecommerce-marketplace/
 ├── src/
 │   ├── components/
-│   │   ├── Benefit.tsx
-│   │   ├── Brand.tsx
-│   │   ├── Cart.tsx
-│   │   ├── CategoryFilter.tsx
-│   │   ├── CheckoutFlow.tsx
-│   │   ├── FilterPanel.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Header.tsx
-│   │   ├── Hero.tsx
-│   │   ├── Pagination.tsx
-│   │   ├── Product.tsx
-│   │   ├── ProductDetail.tsx
-│   │   ├── ProductList.tsx
-│   │   ├── RelatedProducts.tsx
-│   │   ├── ReviewsRatings.tsx
-│   │   ├── SearchBar.tsx
-│   │   ├── Touch.tsx
-│   │   ├── UserProfile.tsx
-│   │   └── Wishlist.tsx
+│   │   ├── Benefit.tsx          # Newsletter signup section
+│   │   ├── Brand.tsx            # Brand highlights with features
+│   │   ├── Cart.tsx             # Shopping cart functionality
+│   │   ├── CategoryFilter.tsx   # Filters products by category
+│   │   ├── CheckoutFlow.tsx     # Multi-step checkout process
+│   │   ├── FilterPanel.tsx      # Advanced filtering options
+│   │   ├── Footer.tsx           # Footer navigation
+│   │   ├── Header.tsx           # Header with navigation links
+│   │   ├── Hero.tsx             # Hero section with a call to action
+│   │   ├── Pagination.tsx       # Pagination for product lists
+│   │   ├── Product.tsx          # Displays popular products
+│   │   ├── ProductDetail.tsx    # Individual product details
+│   │   ├── ProductList.tsx      # Displays products in a grid
+│   │   ├── RelatedProducts.tsx  # Shows related products
+│   │   ├── ReviewsRatings.tsx   # Reviews and ratings for products
+│   │   ├── SearchBar.tsx        # Search functionality
+│   │   ├── Touch.tsx            # About brand origin and story
+│   │   ├── UserProfile.tsx      # User profile with order history
+│   │   └── Wishlist.tsx         # Wishlist feature
 │   ├── pages/
-│   │   ├── index.tsx
+│   │   ├── index.tsx            # Homepage
 │   │   ├── product/
-│   │   │   └── [id].tsx
-│   │   ├── cart.tsx
-│   │   ├── login.tsx
-│   │   ├── signup.tsx
-│   │   └── about.tsx
+│   │   │   └── [id].tsx         # Product detail page (dynamic routing)
+│   │   ├── cart.tsx             # Cart page
+│   │   ├── login.tsx            # Login page
+│   │   ├── signup.tsx           # Sign-up page
+│   │   └── about.tsx            # About page
 │   ├── styles/
-│   │   └── globals.css
+│   │   └── globals.css          # Global styles
 │   ├── utils/
-│   │   └── api.ts
+│   │   └── api.ts               # API integration utility functions
 │   └── lib/
-│       └── classnames.ts
+│       └── classnames.ts        # Utility for conditional class names
 ├── public/
-│   ├── images/
-│   └── favicon.ico
-├── tailwind.config.js
-├── .eslintrc.json
-├── .gitignore
-├── package.json
-└── README.md
+│   ├── images/                  # Static images for the project
+│   └── favicon.ico              # Favicon for the project
+├── tailwind.config.js           # Tailwind CSS configuration
+├── .eslintrc.json               # Linting rules
+├── .gitignore                   # Ignore unnecessary files
+├── package.json                 # Dependencies and scripts
+└── README.md                    # Documentation for the repository
+
