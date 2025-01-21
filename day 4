@@ -1,0 +1,44 @@
+ecommerce-marketplace/
+├── src/
+│   ├── components/
+│   │   ├── Benefit.tsx
+│   │   ├── Brand.tsx
+│   │   ├── Cart.tsx
+│   │   ├── CategoryFilter.tsx
+│   │   ├── CheckoutFlow.tsx
+│   │   ├── FilterPanel.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Pagination.tsx
+│   │   ├── Product.tsx
+│   │   ├── ProductDetail.tsx
+│   │   ├── ProductList.tsx
+│   │   ├── RelatedProducts.tsx
+│   │   ├── ReviewsRatings.tsx
+│   │   ├── SearchBar.tsx
+│   │   ├── Touch.tsx
+│   │   ├── UserProfile.tsx
+│   │   └── Wishlist.tsx
+│   ├── pages/
+│   │   ├── index.tsx
+│   │   ├── product/
+│   │   │   └── [id].tsx
+│   │   ├── cart.tsx
+│   │   ├── login.tsx
+│   │   ├── signup.tsx
+│   │   └── about.tsx
+│   ├── styles/
+│   │   └── globals.css
+│   ├── utils/
+│   │   └── api.ts
+│   └── lib/
+│       └── classnames.ts
+├── public/
+│   ├── images/
+│   └── favicon.ico
+├── tailwind.config.js
+├── .eslintrc.json
+├── .gitignore
+├── package.json
+└── README.md
